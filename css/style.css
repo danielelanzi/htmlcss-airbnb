@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#city{
+  margin: 2%;
+
+  box-shadow: 2px 2px 4px black;
+}
+
+#roma{
+  height: 100vh;
+
+  background: url(https://www.turituri.com/wp-content/uploads/roma-colosseo.jpg);
+  background-size: cover;
+}
+
+#copenaghen{
+  height: 100vh;
+
+  background: url(https://www.gelestatic.it/thimg/Dlf3UHfwU7_K1yCTFUPyvNSgvrU=/fit-in/960x540/https%3A//www.lastampa.it/image/contentid/policy%3A1.33575437%3A1561903591/eafd8be6-131a-11e9-ad1b-a53376d0a2e4_WPNX-31769_iStock-859265102-863x575-k1PG-U105337720910488-1024x576%40LaStampa.it.jpg%3Ff%3Ddetail_558%26h%3D720%26w%3D1280%26%24p%24f%24h%24w%3Dfdced66);
+  background-size: cover;
+}
+
+#tokio{
+  height: 100vh;
+
+  background: url(https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-size: cover;
+}
+
+.name{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  color: white;
+  text-shadow: 2px 2px 4px black;
+
+  font-family: Arial, sans-serif;
+  font-size: 500%;
+}
+
+.layover{
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.layover:hover{
+  background-color: rgba(233, 233, 233, 0.8);
+}
